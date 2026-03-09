@@ -25,7 +25,7 @@
     box-shadow: 0 4px 16px rgba(26, 86, 219, 0.4);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     pointer-events: auto;
-    z-index: 50;
+    z-index: 50; // add index to ensure it's above other elements'
   }
 
   #bubble:hover {
